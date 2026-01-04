@@ -34,7 +34,7 @@ Para clonar este repositório e testar em seu computador:
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/SEU-USUARIO/NOME-DO-REPO.git](https://github.com/SEU-USUARIO/NOME-DO-REPO.git)
+    git clone https://github.com/font-mirella/portfolio-2025.git
     ```
 
 2.  **Entre na pasta:**

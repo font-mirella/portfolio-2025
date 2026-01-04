@@ -47,7 +47,7 @@ export function Projects() {
         </h2>
 
     <div className="relative max-w-6xl mx-auto h-[600px] md:h-[600px]">
-        <div className={`absolute top-10 left-4 md:left-10 w-[300px] md:w-[450px] transition-all duration-500 ease-out cursor-pointer ${getCardStyle(1)}`}
+        <div className={`absolute top-10 left-1/2 -ml-[150px] md:ml-0 md:left-10 w-[300px] md:w-[450px] transition-all duration-500 ease-out cursor-pointer ${getCardStyle(1)}`}
             style={{ transform: hoveredProject === 1 ? 'rotate(0deg) scale(1.1)' : 'rotate(-3deg)' }} // remove rotação quando foca pra ficar reto
                     
                 // mouse
@@ -68,7 +68,7 @@ export function Projects() {
         </div>
 
         {/* --- ITEM 2: LUMIN (Direita + Estrela) --- */}
-        <div className={`absolute bottom-10 right-4 md:right-10 w-[300px] md:w-[450px] md:bottom-20 transition-all duration-500 ease-out cursor-pointer ${getCardStyle(0)}`}
+        <div className={`absolute bottom-10 left-1/2 -ml-[150px] md:ml-0 md:left-auto md:right-10 md:bottom-20 w-[300px] md:w-[450px] transition-all duration-500 ease-out cursor-pointer ${getCardStyle(0)}`}
             style={{ transform: hoveredProject === 0 ? 'rotate(0deg) scale(1.1)' : 'rotate(3deg)' }} // remove rotação quando foca pra ficar reto
                     
                 // mouse

@@ -9,7 +9,7 @@ export function Hero() {
         {/* MIRELLA (Flutuando no topo esquerdo)*/}
         {/* Mobile: Relative (ocupa espaço) e Centralizado */}
         {/* Desktop: Absolute (flutua) e na Esquerda */}
-        <h1 className="text-5-1 md:text-7xl font-retro text-blue-700 leading-tight">
+        <h1 className="text-5xl md:text-7xl font-retro text-blue-700 leading-tight">
           Oi, eu sou a Mirella
         </h1>
 
@@ -19,7 +19,7 @@ export function Hero() {
         </div>
 
         {/* CARTÃO BRANCO */}
-        <div className="relative bg-white/90 backdrop-blur-sm rounded-[1.75rem] p-6 pb-48 md:p-4 md:ml-20 mt-4 md:mt-9 min-h-[300px] flex flex-col justify-center z-10">
+        <div className="relative bg-white/90 backdrop-blur-sm rounded-[1.75rem] p-8 pb-48 md:p-4 md:ml-20 mt-4 md:mt-9 min-h-[300px] flex flex-col justify-center z-20">
             
             {/* Texto dentro do cartão (Empurrado para a direita para não bater na câmera) */}
             {/* Mobile: Centralizado */} 
@@ -57,7 +57,7 @@ export function Hero() {
         {/* CÂMERA (Flutuando na esquerda inferior) */}
         {/* Mobile: Centralizada embaixo, menorzinha (w-48) */}
         {/* Desktop: Na esquerda, grandona, rotacionada */}
-        <div className="absolute -bottom-10 translate-x-1/2 md:-bottom-6 md:-left-12 -left-1/2 w-48 md:translate-x-0 z-20 md:w-96 rotate-[-5deg] hover:rotate-0 transition duration-500">
+        <div className="absolute -bottom-0 translate-x-1/2 md:-bottom-6 md:-left-12 w-56 right-36 md:translate-x-0 z-20 md:w-96 rotate-[-5deg] hover:rotate-0 transition duration-500">
           <img 
             src="/mirellacamera.png" 
             alt="Câmera"

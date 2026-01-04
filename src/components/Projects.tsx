@@ -5,7 +5,7 @@ const projects = [
 
     {
     title: "Lumin",
-    description: "Projeto desenvolvido para a disciplina de Desenvolvimento de Software, na qual a proposta era simular uma Startup.\n\n Fui uma das responsáveis pelo Design + Front-End, além de parte da ideação.\n\n Primeira experiência com Banco de Dados e API, então foram aprendizados valiosos. ",
+    description: "Projeto para a disciplina de Desenvolvimento de Software, cuja proposta era simular uma Startup.\n\n Fui uma das responsáveis pelo Design + Front-End e parte da ideação.\n\n Primeiro contato com Banco de Dados e API.",
     techs: ["HTML, CSS e JavaScript", "Figma", "API"],
     image: "/Lumin.png", 
     repoLink: "https://github.com/Devs-Lumin/API-Desenvolvimento-de-Software",
@@ -14,8 +14,8 @@ const projects = [
     },
     {
     title: "Jornada Para O Carnaval",
-    description: "Uma explicação caprichada do que esse projeto faz. Como você tem poucos, aproveite para vender seu peixe aqui. Diga qual problema ele resolve.",
-    techs: ["React", "Tailwind", "Node.js"],
+    description: "Projeto para finalizar a disciplina de Introdução à Programação.\n\n Primeiro contato com Programação Orientada a Objetos",
+    techs: ["PYGAME", "Python", "POO"],
     image: "/Jornada Para o Carnaval.png",
     repoLink: "https://github.com/AmandaTrinity/ProjetoIP",
     liveLink: "",
@@ -142,7 +142,11 @@ export function Projects() {
                 </div>
 
                 <div className='flex gap-4 pt-4 mt-auto'>
-                    <a href={activeProject.repoLink} target="_blank" className='flex-1 py-3 bg-blue-800 text-white text-center font-bold rounded-xl shadow-md hover:scale-105 transition-transform duration-300 active:scale-95 flex items-center justify-center gap-2'>
+                    <a href={activeProject.repoLink} target="_blank" className='flex-1 py-3 bg-blue-800 hover:bg-black text-white text-center font-bold rounded-xl shadow-md hover:scale-105 transition-all duration-300 active:scale-95 flex items-center justify-center gap-2'>
+                        {/* Ícone do GitHub (SVG) */}
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                        </svg>
                         Ver Código
                     </a>
 

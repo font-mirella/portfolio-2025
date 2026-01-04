@@ -27,7 +27,7 @@ export function Hero() {
 
               {/* BOTÕES */}
               <div className="flex gap-10 pt-4">
-                <button className="
+                <a href="#projetos" className="
                   px-7 py-2 rounded-full font-bold text-white tracking-wide
                   bg-blue-700
                   shadow-[0_0_1px_rgba(59,130,246,0.6)]
@@ -35,7 +35,7 @@ export function Hero() {
                   transition-all duration-300
                 ">
                   Projetos
-                </button>
+                </a>
                 <button className="
                   px-7 py-1 rounded-full font-bold text-blue-800
                   bg-transparent
@@ -52,11 +52,11 @@ export function Hero() {
 
         {/* CÂMERA (Flutuando na esquerda inferior) */}
         <div className="absolute -bottom-6 -left-4 md:-left-12 z-10 w-64 md:w-96 rotate-[-5deg] hover:rotate-0 transition duration-500">
-           <img 
+          <img 
             src="/mirellacamera.png" 
             alt="Câmera"
             className="drop-shadow-2xl" 
-           />
+          />
         </div>
 
       </div>

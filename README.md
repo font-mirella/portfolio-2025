@@ -1,73 +1,66 @@
-# React + TypeScript + Vite
+# 👩‍💻 Primeiro Portfólio Pessoal - Mirella Fontinelle
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Capa do Projeto](public/Capa.png)
 
-Currently, two official plugins are available:
+## 👋 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Seja bem-vindo ao repositório do meu portfólio oficial! Este projeto foi desenvolvido para documentar e apresentar minha trajetória durante meu primeiro ano em **Ciência da Computação na UFPE**, além de aprender e treinar um pouco mais sobre desenvolvimento web.
 
-## React Compiler
+Tentei incluir elementos para criar minha própria identidade visual de acordo com o que prefiro no designminhas preferências estéticas no design, que é uma área que tenho muito carinho!
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🔗 **Acesse o projeto online:** [https://portfolio-mirella-2025.vercel.app/]
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+O projeto foi construído com foco em performance e organização de código:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+* ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) **React:** Biblioteca principal para construção da interface.
+* ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) **TypeScript:** Para tipagem estática e segurança no código.
+* ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) **Tailwind CSS:** Para estilização rápida, responsiva e efeitos visuais.
+* ![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E) **Vite:** Build tool para desenvolvimento ágil.
+* **Vercel:** Plataforma utilizada para CI/CD e hospedagem.
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ✨ Funcionalidades e Destaques
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+* **Design Responsivo:** Layout adaptável para dispositivos mobile e desktops.
+* **Interactive Cards:** Cards de projetos com efeitos de rotação, escala e blur controlados via estado do React (`useState`).
+* **Modais Dinâmicos:** Sistema de janelas que abrem sobre a interface para mostrar detalhes técnicos dos projetos sem recarregar a página.
+* **Estética:** Uso de gradientes, sombras e elementos visuais (alfinetes, estrelas) que remetem ao meu estilo de design.
+* **SVG Icons:** Implementação de ícones vetoriais diretamente no código para qualidade da criação.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📦 Como rodar localmente
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Para clonar este repositório e testar em seu computador:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/SEU-USUARIO/NOME-DO-REPO.git](https://github.com/SEU-USUARIO/NOME-DO-REPO.git)
+    ```
+
+2.  **Entre na pasta:**
+    ```bash
+    cd portfolio
+    ```
+
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+
+4.  **Rode o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+
+5.  O projeto estará rodando em `http://localhost:5173`.
+
+## 📬 Contato
+
+Sinta-se à vontade para entrar em contato ou dar feedbacks sobre o código!
+
+* **LinkedIn:** [linkedin.com/in/mirella-fontinelle]
+* **Email:** [laurmirella@gmail.com]
+
+---
+Obrigada pela atenção! 💙
+Desenvolvido por Mirella Fontinelle.

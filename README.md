@@ -7,7 +7,7 @@
 ### **Seja bem-vindo ao repositório do meu portfólio!** 
 Este projeto foi desenvolvido para documentar e apresentar minha trajetória durante meu primeiro ano em **Ciência da Computação na UFPE**, além de aprender e treinar um pouco mais sobre desenvolvimento web.
 
-Tentei incluir elementos para criar minha própria identidade visual de acordo com o que prefiro no designminhas preferências estéticas no design, que é uma área que tenho muito carinho!
+Tentei incluir elementos para criar minha própria identidade visual de acordo com minhas preferências estéticas no design, que é uma área que tenho muito carinho!
 
 🔗 **Acesse o projeto online:** [https://portfolio-mirella-2025.vercel.app/]
 
